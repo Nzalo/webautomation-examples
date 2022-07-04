@@ -12,3 +12,7 @@ Web automation examples using Selenium and Helium
 ## Resources
 * [Working with environment variables in python](https://www.twilio.com/blog/environment-variables-python)
 * [Helium for selenium](https://github.com/mherrmann/selenium-python-helium)
+
+## TODOs
+* Include a Slack Bot to notify on sucess
+* Include a Slack Bot with a button to ask for yes or no and perform an action depending on it. 
