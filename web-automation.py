@@ -2,9 +2,9 @@ from dotenv import load_dotenv
 from helium import *
 import time
 import os
+#import slack-bot
 
 def automation_ex1():
-    load_dotenv('.env')
 
     start_chrome(os.environ['WEBADDRESS'])
     click(os.environ['ABTEILUNG'])
@@ -43,4 +43,6 @@ def automation_ex1():
     kill_browser()
 
 if __name__ == "__main__":
+    load_dotenv('.env')
+    #app = App(token=os.environ.get("SLACK_BOT_TOKEN"))
     automation_ex1()
